@@ -1,0 +1,102 @@
+.main-class {
+    min-width: 300px;
+    min-height: 600px;
+    border: 2 px solid black;
+    background-color: aliceblue;
+    margin-top: 25px;
+    margin-left: 140px;
+    margin-right: 220px;
+    border-radius: 15px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: violet;
+}
+
+.nav {
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.nav h1 {
+    padding: 5px;
+}
+
+.nav p {
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    margin-top: 10px;
+}
+
+.body {
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 30px;
+}
+
+#guess {
+    font-size: 20px;
+    margin-right: 10px;
+
+}
+
+#text-node {
+    padding: 3px;
+    border-radius: 10px;
+    margin-left: 10px;
+    border-color: aqua;
+
+}
+
+#button {
+    margin-top: 28px;
+    width: 100px;
+    height: 25px;
+    border-radius: 12px;
+    background-color: yellow;
+    box-shadow: 0 9px 40px 0 black;
+
+
+}
+
+#button:hover {
+    background-color: maroon;
+    color: blanchedalmond;
+
+}
+
+.result {
+    margin-left: 10px;
+    margin-top: 70px;
+}
+
+.result p {
+    font-size: 19px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.link {
+    color: red;
+    margin-top: 60px;
+    margin-left: 120px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+@media (max-width : 480px) {
+    .main-class {
+        width:70vw;
+        height: 400px;
+        margin-left: 1rem;
+        margin: right 1rem;
+    }
+}
